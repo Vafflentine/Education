@@ -61,5 +61,5 @@ func WriteToFile(response []byte, countFile int) {
 }
 
 func main() {
-	getPostsAsync(100, "console")
+	getPostsAsync(5, "file")
 }
